@@ -37,29 +37,3 @@ const myBoundTurnOn = turnOn.myBind(lamp);
 boundTurnOn(); // should say "Turning on a lamp"
 myBoundTurnOn(); // should say "Turning on a lamp"
 
-class Cat { 
-  let sandy = cats.name 
-
-  // dog class with methods 
-  // bark method 
-  // let Randy = dogs.name
-
-  const meow = function () {
-
-    console.log("HI, I am ${name}");
-
-  };
-
-}
-
-Sandy.meow.call(randy, hi, hello )
-
-sandy.meow 
-
-hi i am sandy
-
-randy.meow
-
-sandy.meow.apply(randy, [fhhf,fff]) 
-
-hi i  am randy   

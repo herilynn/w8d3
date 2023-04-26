@@ -30,6 +30,9 @@ class Clock {
                 if (this.minutes === 60) {
                        this.hours ++ 
                        this.minutes = 0 
+                      if (this.hours === 24) {
+                        this.hours = 0 
+                      };
                 };
         };
         this.printTime();

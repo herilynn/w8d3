@@ -1,16 +1,9 @@
-// const readline = require("readline");
-// const rl = readline.createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// });
-
 const readline = require('readline');
 
 let rl = readline.createInterface(
   process.stdin, process.stdout);
 
 function addNums(sum, numsLeft, completionCallback) {
-  // let prompt = rl.question("Provide us with a number:", answer => answer);
   if (numsLeft > 0) {
 
         let prompt = rl.question("Provide us with a number:", (answer) => {
